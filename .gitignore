@@ -1,22 +1,18 @@
-# Data folder, but not Data/Scripts folder or messages_core.dat
-Data/*
-!Data/Scripts.rxdata
-!Data/Scripts/
-!Data/messages_core.dat
+# Ignore only things that should not be tracked
 
-# Files in the main project folder
+# Main project files not needed in repo
 errorlog.txt
 Game.ini
 Game.rxproj
 RGSS*.dll
 
-# Common code editor folders & files
+# Editor folders
 .vscode/
 *.code-workspace
 .idea/
 *.mkproj
 
-# Operating system generated files & folders
+# OS files
 .DS_Store
 .DS_Store?
 ehthumbs.db
@@ -24,5 +20,4 @@ Thumbs.db
 [Dd]esktop.ini
 
 # Temp files
-
 ~*
