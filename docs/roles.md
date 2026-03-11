@@ -1,6 +1,8 @@
 # Project Norden – Team Structure
 
 ## Studio Hierarchy
+
+```
 Owner / Creative Director
 │
 ├─ Project Manager
@@ -26,6 +28,7 @@ Owner / Creative Director
 │
 └─ Audio Lead
    └─ Composers
+```
 
 ## Reporting Structure
 
