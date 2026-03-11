@@ -1,23 +1,21 @@
-# Ignore only things that should not be tracked
-
-# Main project files not needed in repo
-errorlog.txt
-Game.ini
-Game.rxproj
-RGSS*.dll
-
-# Editor folders
+# Local editor settings
 .vscode/
-*.code-workspace
 .idea/
+*.code-workspace
 *.mkproj
 
-# OS files
+# OS junk
 .DS_Store
 .DS_Store?
-ehthumbs.db
 Thumbs.db
+ehthumbs.db
 [Dd]esktop.ini
 
 # Temp files
+*.bak
+*.tmp
+*.log
 ~*
+
+# RPG Maker logs
+errorlog.txt
