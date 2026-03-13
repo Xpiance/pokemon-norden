@@ -1,28 +1,21 @@
-# Data folder, but not Data/Scripts folder or messages_core.dat
-Data/*
-!Data/Scripts.rxdata
-!Data/Scripts/
-!Data/messages_core.dat
-
-# Files in the main project folder
-errorlog.txt
-Game.ini
-Game.rxproj
-RGSS*.dll
-
-# Common code editor folders & files
+# Local editor settings
 .vscode/
-*.code-workspace
 .idea/
+*.code-workspace
 *.mkproj
 
-# Operating system generated files & folders
+# OS junk
 .DS_Store
 .DS_Store?
-ehthumbs.db
 Thumbs.db
+ehthumbs.db
 [Dd]esktop.ini
 
 # Temp files
-
+*.bak
+*.tmp
+*.log
 ~*
+
+# RPG Maker logs
+errorlog.txt
