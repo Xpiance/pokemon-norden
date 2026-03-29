@@ -17,3 +17,20 @@ SuperRod
     15,CORSOLA,15,18
     5,STARYU,15,17
 #-------------------------------
+[007] # Route 1
+Land,21
+    30,SCUFFLE,2,4
+    30,FACOWLE,2,4
+    20,SNIBBLE,2,3
+    10,LARVE,2,3
+    8,BLOOMITE,3,5
+    2,ROLYTE,3,5
+LandNight,21
+    35,SCUFFLE,2,4
+    25,FACOWLE,2,4
+    10,SNIBBLE,2,3
+    20,LARVE,2,3
+    8,BLOOMITE,3,5
+    2,ROLYTE,3,5
+PokeRadar,20
+    100,BLOOMITE,3,6

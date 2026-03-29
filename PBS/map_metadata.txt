@@ -10,14 +10,53 @@ ShowArea = true
 MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
-[003]   # Player's house
+[003]   # Reserved/test
 Name = \PN's house
 HealingSpot = 2,8,8
 MapPosition = 0,13,12
 #-------------------------------
-[004]   # Route 1
+[004]   # Reserved/test
 Name = Route 1
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,12
 BattleBack = field
+#-------------------------------
+[005]   # Lappet Town
+Name = Starter Town (Name?)
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[006]   # Pokemon Lab
+Name = Pokémon Lab
+HealingSpot = 2,8,8
+MapPosition = 0,13,12
+#-------------------------------
+[007]   # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[008]   # Secret forest
+Name = Pokémon Lab
+HealingSpot = 2,8,8
+MapPosition = 0,13,12
+#-------------------------------
+[009]   # Cave
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[010]   # Second town
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+
