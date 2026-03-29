@@ -450,7 +450,7 @@ Category = Blizzard Hawk
 Pokedex = Bluzzard rides freezing winds without effort. Travelers fear its shadow, which is said to appear moments before a storm breaks.
 Generation = 9
 #-------------------------------
-[Gnomal]
+[GNOMAL]
 Name = Gnomal
 Types = NORMAL,ROCK
 BaseStats = 50,56,42,30,35,62

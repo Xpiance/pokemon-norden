@@ -1,5 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+#-----------FAKEMON-------------
+#-------------------------------
+[TULPET]
+FrontSprite = 0,30
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[FLINTUFF]
+FrontSprite = 0,30
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+#-----------POKEMON-------------
+#-------------------------------
 [BULBASAUR]
 BackSprite = -4,0
 FrontSprite = -1,26
