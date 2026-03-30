@@ -1,0 +1,5 @@
+intro1=\f[ProfessorSpruce]\bWelcome to the world of Pokémon!\wt[20]\nMy name is Eir.
+intro2=This world is inhabited by creatures called Pokémon.
+intro3=\c[1]Some people battle with them,\c[0]\nwhile others live alongside them.
+mom1=\f[Mom]Be careful out there, okay?
+sign_lab=Seidr Research Lab\nKnowledge and myth together.

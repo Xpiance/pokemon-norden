@@ -417,6 +417,7 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
   msgwindow.waitcount = 0
   autoresume = false
   text = message.clone
+  text = KeyValueText.resolve(text)
   linecount = (Graphics.height > 400) ? 3 : 2
   ### Text replacement
   text.gsub!(/\\sign\[([^\]]*)\]/i) do      # \sign[something] gets turned into

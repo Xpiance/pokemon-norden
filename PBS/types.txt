@@ -1,5 +1,15 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+#---------Added types-----------
+#-------------------------------
+[LIGHT]
+Name = Light
+IconPosition = 19
+Weaknesses = DARK,ROCK
+Resistances = FIRE,ELECTRIC,ICE,FAIRY
+#-------------------------------
+#----------Usual types----------
+#-------------------------------
 [NORMAL]
 Name = Normal
 IconPosition = 0
@@ -22,7 +32,7 @@ Immunities = GROUND
 [POISON]
 Name = Poison
 IconPosition = 3
-Weaknesses = GROUND,PSYCHIC
+Weaknesses = GROUND,PSYCHIC,LIGHT
 Resistances = FIGHTING,POISON,BUG,GRASS,FAIRY
 #-------------------------------
 [GROUND]
@@ -36,18 +46,18 @@ Immunities = ELECTRIC
 Name = Rock
 IconPosition = 5
 Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS
-Resistances = NORMAL,FLYING,POISON,FIRE
+Resistances = NORMAL,FLYING,POISON,FIRE,LIGHT
 #-------------------------------
 [BUG]
 Name = Bug
 IconPosition = 6
-Weaknesses = FLYING,ROCK,FIRE
+Weaknesses = FLYING,ROCK,FIRE,LIGHT
 Resistances = FIGHTING,GROUND,GRASS
 #-------------------------------
 [GHOST]
 Name = Ghost
 IconPosition = 7
-Weaknesses = GHOST,DARK
+Weaknesses = GHOST,DARK,LIGHT
 Resistances = POISON,BUG
 Immunities = NORMAL,FIGHTING
 #-------------------------------
@@ -55,7 +65,7 @@ Immunities = NORMAL,FIGHTING
 Name = Steel
 IconPosition = 8
 Weaknesses = FIGHTING,GROUND,FIRE
-Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY
+Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY,LIGHT
 Immunities = POISON
 #-------------------------------
 [QMARKS]
@@ -82,7 +92,7 @@ Name = Grass
 IconPosition = 12
 IsSpecialType = true
 Weaknesses = FLYING,POISON,BUG,FIRE,ICE
-Resistances = GROUND,WATER,GRASS,ELECTRIC
+Resistances = GROUND,WATER,GRASS,ELECTRIC,LIGHT
 #-------------------------------
 [ELECTRIC]
 Name = Electric
@@ -103,7 +113,7 @@ Name = Ice
 IconPosition = 15
 IsSpecialType = true
 Weaknesses = FIGHTING,ROCK,STEEL,FIRE
-Resistances = ICE
+Resistances = ICE,LIGHT
 #-------------------------------
 [DRAGON]
 Name = Dragon
